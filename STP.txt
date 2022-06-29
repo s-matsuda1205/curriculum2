@@ -1,0 +1,12 @@
+　・Switch1：32769　→　指定ポート
+
+　・Switch2：20481　→ルートポート
+
+　・Switch3：4097 →　ルートブリッジ　ブロッキングポート
+
+　・Switch4：8193　→　指定ポート
+
+switch1→switch2=19
+switch2→switch4=100
+switch4→switch3=100
+switch3→switch1=100
